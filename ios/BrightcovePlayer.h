@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 #import <BrightcovePlayerSDK/BCOVPlayerSDKManager.h>
+#import <BrightcovePlayerSDK/BCOVGlobalConfiguration.h>
 #import <BrightcovePlayerSDK/BCOVPlaybackController.h>
 #import <BrightcovePlayerSDK/BCOVPlaybackService.h>
 #import <BrightcovePlayerSDK/BCOVPUIPlayerView.h>
