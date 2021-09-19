@@ -15,7 +15,8 @@
 }
 
 - (void)setup {
-      {
+@try
+  {
     [BCOVGlobalConfiguration.sharedConfig setValue:@{
       @"privateUser": @"allenhurst+5@gmail.com",
       @"privateApplication": @""
