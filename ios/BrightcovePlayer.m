@@ -15,6 +15,17 @@
 }
 
 - (void)setup {
+        [BCOVGlobalConfiguration.sharedConfig setValue:@{
+      @"privateUser": @"allenhurst+5@gmail.com",
+      @"privateApplication": @""
+    }
+    forKey:@"privateSessionAnalytics"];
+  }
+  @catch (NSException *e)
+  {
+    NSLog(@"%@", e.description);
+  }
+
     _playbackController = [BCOVPlayerSDKManager.sharedManager createPlaybackController];
     _playbackController.delegate = self;
     _playbackController.autoPlay = NO;
